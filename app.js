@@ -1,6 +1,6 @@
 
 //this telling the buttons what to do & pull GIFs. 
-var animalArray = ["cat", "dog", "bird"]
+var animalArray = ["winter", "snow", "Vermont", "cold", "Game of Thrones", "holiday", "Christmas", "vacation"]
 
 
 
@@ -17,6 +17,7 @@ var addBtn = function(){
 
   for (var i = 0; i < animalArray.length; i++) {
     var newBtn = $("<button>");
+    newBtn.addClass("button");
     newBtn.text(animalArray[i]);
     newBtn.on("click", function() {
       $("#gifs-appear-here").empty();
