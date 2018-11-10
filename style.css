@@ -18,17 +18,19 @@ img {
 .gifDiv {
     display: inline-block;
     margin: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #form {
-color: red;
+color: white;
 float: right;
 margin-right: 50px;
 text-align: center;
 display: inline block;
-background-color: rgb(123, 177, 179);
+background-color: rgba(196, 73, 73, 0.733);
 padding: 5px;
 margin-top: 5px;
+border-radius: 8px;
 }
 
 #formTitle {
@@ -41,11 +43,21 @@ margin-top: 5px;
     background-color: rgba(196, 73, 73, 0.733);
     margin: 5px;
     border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #buttonSpace {
     margin-bottom: 150px;
 }
 
+#newValue {
+    color: white;
+    font-size: 25px;
+    background-color: rgba(245, 241, 241, 0.733);
+    margin: 5px;
+    border-radius: 8px;
+    margin-top: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 

@@ -1,6 +1,6 @@
 
-//this telling the buttons what to do & pull GIFs. 
-var animalArray = ["winter", "snow", "Vermont", "cold", "Game of Thrones", "holiday", "Christmas", "vacation"]
+//this telling the buttons what to do & pull GIFs
+var animalArray = ["winter", "snow", "Vermont", "cold", "Game of Thrones", "holiday", "Christmas", "vacation", "fire", "Autumn", "gingerbread", "turkey", "maple", "farm", "pine trees", "candles", "hot drinks"]
 
 
 
