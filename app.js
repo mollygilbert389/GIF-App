@@ -22,7 +22,7 @@ var addBtn = function(){
     newBtn.on("click", function() {
       $("#gifs-appear-here").empty();
       var animal = $(this).text();
-      var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=dc6zaTOxFJmzC&limit=10";
+      var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=dc6zaTOxFJmzC&limit=10";
       $.ajax({
         url: queryURL,
         method: "GET"
